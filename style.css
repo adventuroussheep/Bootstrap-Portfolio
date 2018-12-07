@@ -1,0 +1,10 @@
+#navbar {
+    margin-top: 0px;
+}
+
+#footer {
+    display: grid;
+    min-height: 100%;
+    grid-template-columns: 100%;
+    position: sticky;
+}
