@@ -1,10 +1,48 @@
 #navbar {
     margin-top: 0px;
+    background-color: #ffffff;
 }
 
+.navbar-brand {
+    background-color: #4AAAA5;
+    padding: 20px;
+}
+
+    /* cannot align right? */
+.navbar-nav{
+}
+
+
+.body {
+    border: 3px solid black;
+    height: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.body-header {
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+/* Footer */
 #footer {
-    display: grid;
-    min-height: 100%;
-    grid-template-columns: 100%;
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+    /* cannot make smaller??? */
+.card-header {
+    height: 1%;
+    background-color: #4AAAA5
+}
+
+.card-text {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: #666666;
 }
