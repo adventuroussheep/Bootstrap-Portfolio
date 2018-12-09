@@ -1,48 +1,52 @@
-#navbar {
-    margin-top: 0px;
-    background-color: #ffffff;
-}
-
-.navbar-brand {
-    background-color: #4AAAA5;
-    padding: 20px;
-}
-
-    /* cannot align right? */
-.navbar-nav{
-}
-
-
-.body {
-    border: 3px solid black;
-    height: 500px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.body-header {
-    margin: 0 auto;
-    width: 90%;
-    border-bottom: 2px solid black;
-    padding: 20px;
-}
-
-/* Footer */
-#footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
-    /* cannot make smaller??? */
-.card-header {
-    height: 1%;
-    background-color: #4AAAA5
-}
-
-.card-text {
-    text-align: center;
-    padding: 40px;
+.navbar-brand{
+    padding: 15px;
+    background-color: #4aaaa5;
     color: white;
-    background-color: #666666;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-group {
+    margin-top: 20px;
+    right: 0;
+    margin-bottom: 10px;
+    color: #777777;
+}
+
+.jumbotron {
+    background-color: white;
+    border: 2px solid #666;
+    color: #777777;
+}
+
+.card {
+    border: none;
+    text-align: center;
+    border-top: 4px solid #4aaaa5;
+    background-color: #666;
+    color: white;
+    bottom: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    left: 0
+}
+
+body {
+    background-image: url("./assets/circuit.png")
+}
+
+.header {
+    background-color: white;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
