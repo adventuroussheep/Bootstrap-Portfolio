@@ -52,8 +52,142 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-
 .img-fluid {
     float: left;
     margin-right: 20px;
+}
+
+/* Contact page */
+ .message {
+     width: 70%;
+     height: 100px;
+ }
+
+ .contact-submit{
+     background-color: #4aaaa5;
+     color: white;
+ }
+
+ /* Portfolio page */
+
+ .hangman {
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hangman-btn {
+    border: none;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    transition: all .1s ease-out;
+}
+
+.hangman-btn:hover {
+    box-shadow: 0px 5px 5px black;
+    bottom: 11%;
+}
+
+.rpg {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rpg-btn {
+    border: none;
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    transition: all .1s ease-out;
+}
+
+.rpg-btn:hover {
+    box-shadow: 0px 5px 5px black;
+    bottom: 11%;
+}
+
+.trivia {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.trivia-btn {
+    border: none;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    transition: all .1s ease-out;
+}
+
+.trivia-btn:hover {
+    box-shadow: 0px 5px 5px black;
+    bottom: 11%;
+}
+
+.widget {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.widget-btn {
+    border: none;
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    transition: all .1s ease-out;
+}
+
+.widget-btn:hover {
+    box-shadow: 0px 5px 5px black;
+    bottom: 11%;
+}
+
+.rock {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rock-btn {
+    border: none;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    width: 250px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    transition: all .1s ease-out;
+}
+
+.rock-btn:hover {
+    box-shadow: 0px 5px 5px black;
+    bottom: 11%;
 }
