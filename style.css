@@ -4,6 +4,7 @@
     color: white;
     width: 100%;
     text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .btn-group {
@@ -49,4 +50,10 @@ h1 {
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.img-fluid {
+    float: left;
+    margin-right: 20px;
 }
