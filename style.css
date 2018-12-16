@@ -73,8 +73,10 @@ p {
  .hangman {
     position: relative;
     margin: 0 auto;
-    width: 250px;
-    height: 200px;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 250px;
+    min-height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -84,7 +86,7 @@ p {
     position: absolute;
     bottom: 10%;
     left: 0%;
-    width: 250px;
+    width: 100%;
     height: 50px;
     background-color: #4aaaa5;
     color: white;
@@ -99,6 +101,10 @@ p {
 .rpg {
     position: relative;
     margin: 0 auto;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 250px;
+    min-height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -108,7 +114,7 @@ p {
     position: absolute;
     bottom: 10%;
     right: 0%;
-    width: 250px;
+    width: 100%;
     height: 50px;
     background-color: #4aaaa5;
     color: white;
@@ -123,6 +129,10 @@ p {
 .trivia {
     position: relative;
     margin: 0 auto;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 250px;
+    min-height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -132,7 +142,7 @@ p {
     position: absolute;
     bottom: 10%;
     left: 0%;
-    width: 250px;
+    width: 100%;
     height: 50px;
     background-color: #4aaaa5;
     color: white;
@@ -147,6 +157,10 @@ p {
 .widget {
     position: relative;
     margin: 0 auto;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 250px;
+    min-height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -156,7 +170,7 @@ p {
     position: absolute;
     bottom: 10%;
     right: 0%;
-    width: 250px;
+    width: 100%;
     height: 50px;
     background-color: #4aaaa5;
     color: white;
@@ -171,6 +185,10 @@ p {
 .rock {
     position: relative;
     margin: 0 auto;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 250px;
+    min-height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -180,7 +198,7 @@ p {
     position: absolute;
     bottom: 10%;
     left: 0%;
-    width: 250px;
+    width: 100%;
     height: 50px;
     background-color: #4aaaa5;
     color: white;
